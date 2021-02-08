@@ -1,0 +1,142 @@
+body {
+    background-color: rgb(201, 201, 201);
+    font-family: sans-serif;
+}
+
+h1 {
+    clear: both;
+    font-size: 20px;
+}
+
+section {
+    margin-bottom: 60px;
+}
+
+ul.left {
+
+    list-style-type: none;
+}
+
+ul.left li {
+    float: left;
+}
+
+ul.first li {
+    text-align: center;
+    margin-left: 15px;
+    width: 160px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(120, 219, 120);
+    border: 5px rgb(133, 66, 133) dashed;
+    color: rgb(102, 0, 102);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+ul.sec {
+    text-align: center;
+}
+
+ul.sec li {
+    display: inline;
+    background-color: white;
+    margin-left: 10px;
+    font-size: 17px;
+    padding: 5px;
+    text-align: center;
+    border-style: solid;
+    border-color: white gray black white;
+    border-width: 2px;
+}
+
+ul.sec li:hover{
+    border-color: black white white black;
+    border-style: solid;
+    border-width: 2px;
+    background-color: rgb(201, 201, 201);
+}
+
+ul.ter {
+    list-style-type: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: black 1px solid;
+    float: left;
+} 
+
+ul.ter li {
+    border: 1px black solid;
+    font-size: 17px;
+    width: 160px;
+    padding: 5%;
+    background-color: white;
+    margin: 10px;
+    margin-left: -13%;
+    text-align: center;
+}
+
+
+ul.cuar {
+    list-style-type: none;
+    text-align: center;
+}
+
+ul.cuar li {
+    width: 175px;
+    background-color: white;
+    color:rgb(50, 104, 204);
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 550;
+    padding: 0.7%;
+}
+
+ul.cuar li.blue  {
+    color: white;
+    background-color: rgb(50, 104, 204);
+}
+
+ul.cinco {
+    list-style-type: none;
+}
+
+ul.cinco li {
+float: left;
+width: 100px;
+height: 40px;
+padding-left: 15px;
+}
+
+
+ul.cinco img {
+    width: 20px;
+    height: 20px;
+    
+}
+
+
+
+ul.seis {
+    list-style-type: none;
+    margin-left: 25%;
+}
+
+ul.seis img {
+
+    width: 40px;
+    height: 40px;
+}
+
+ul.seis li {
+    margin-left: 3%;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    display: inline-block;
+    background-color: white;
+    border: black 3px solid;
+    border-radius: 10px;
+}
+
